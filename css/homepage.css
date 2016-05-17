@@ -18,30 +18,50 @@
   background:url('./../images/publications_background.png') no-repeat center center;
 }
 */
+@media (min-width: 300px) {
+  .back-bio { 
+    background:#ffffff;
+  }
+  .back-research { 
+    background:#cccccc;
+  }
+  .back-teaching { 
+    background:#ffffff;
+  }
+  .text-white {
+    color: #000000;
+  }  
+  .text-md {
+    font-size: 1em;
+  }
+}
 
-.back-bio { 
-  background:url('./../images/bc_background.jpg') no-repeat center center;
+@media (min-width: 992px) {
+  .back-bio { 
+    background:url('./../images/bc_background.jpg') no-repeat center center;
+  }
+  .back-research { 
+    background:url('./../images/r_background.jpg') no-repeat center center;
+  }
+  .back-teaching { 
+    background:url('./../images/t_background.jpg') no-repeat center center;
+  }
+  .back-photo { 
+    background:url('./../images/p_background.jpg') no-repeat center center;
+  }
+  .text-white {
+    color: #FFFFFF;
+  }  
+  .text-md {
+    font-size: 1.25em;
+  }
+
 }
-.back-research { 
-  background:url('./../images/r_background.jpg') no-repeat center center;
-}
-.back-teaching { 
-  background:url('./../images/t_background.jpg') no-repeat center center;
-}
-.back-photo { 
-  background:url('./../images/p_background.jpg') no-repeat center center;
-}
+
 .nav-text {
   font-family: Special Elite;
 }
 
-.text-md {
-  font-size: 1.25em;
-}
-
-.text-white {
-  color: #ffffff;
-}
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
