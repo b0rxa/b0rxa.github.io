@@ -1,17 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Droid Sans');
-/*!
- * Default theme for Pingendo 
- * Homepage: http://pingendo.com  
- * Copyright 2015 Pingendo 
- * Licensed under MIT 
- * Based on Bootstrap v3.3.4
-*/
-/* Add custom CSS classes here 
- * 
- * img {
- *   box-shadow : 0px 0px 10px black !important;
- * }
-*/
+@import url('https://fonts.googleapis.com/css?family=Overlock|Raleway');
+
+.text-black {
+  color: #000000;
+}
+
 logos {
   vertical-align: center;
 }
@@ -1089,7 +1081,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: Droid Sans;
+  font-family: Raleway;
   font-size: 14px;
   line-height: 1.42857143;
   color: #000000;
@@ -1191,7 +1183,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: Lobster;
+  font-family: Overlock;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -5828,7 +5820,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: Droid Sans;
+  font-family: Raleway;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -5935,7 +5927,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: Droid Sans;
+  font-family: Raleway;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -6233,10 +6225,8 @@ button.close {
   position: absolute;
   left: 15%;
   right: 15%;
-  bottom: 20px;
+  top: 33%;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
   color: #ffffff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
