@@ -26,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
           <ul class="nav navbar-nav navbar-right nav-text">
             <li class="active">
-              <a href=""><i class="fa fa-fw fa-home fa-lg"></i> Home</a>
+              <a href="#home"><i class="fa fa-fw fa-home fa-lg"></i> Home</a>
             </li>
             <li>
               <a href="#research"><i class="fa fa-fw fa-area-chart fa-lg"></i> Research</a>
@@ -44,7 +44,7 @@
     <br><br>
 
     <!-- MENU------------------------------------------------------------------------------------------------>
-    <div class="section back-bio">
+    <div class="section back-bio" id="home">
       <div class="container">
         <div class="hidden-sm hidden-xs"><br><br><br></div>
         <h2 class="hidden-md hidden-lg text-primary"> Borja Calvo </h2>
@@ -52,7 +52,7 @@
           <div class="col-md-3"></div>
           <div class="col-md-6">
             <div class="hidden-sm hidden-xs"><br><br><br><br><br></div>
-            <p class="text-justify" contenteditable="true">I recieved my master's degree in Biochemistry from the Univesity of the
+            <p class="text-justify">I recieved my master's degree in Biochemistry from the Univesity of the
               Basque Country in 1999 and, after two years working, I took a bachelor's
               degree in Computer Science at the same university. In 2004 I earned the
               bachelor's degree and in 2008 the PhD in Computer Science.
@@ -288,6 +288,25 @@
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-1181896-3', 'auto');
       ga('send', 'pageview');
-    </script>  
+    </script>
+
+
+        <!-- SMOOTH SCROLLING ----------------------------------------------------------------------------->
+        <script>
+        $(document).ready(function(){
+        	$('a[href^="#"]').on('click',function (e) {
+        	    e.preventDefault();
+
+        	    var target = this.hash;
+        	    var $target = $(target);
+
+        	    $('html, body').stop().animate({
+        	        'scrollTop': $target.offset().top
+        	    }, 900, 'swing', function () {
+        	        window.location.hash = target;
+        	    });
+        	});
+        });
+        </script>
   </body>
 </html>

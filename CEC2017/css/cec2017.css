@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Overlock|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Overlock|Raleway|Josefin Sans');
+
+.wellcome{
+  background:url('./../images/Donosti_3.jpg') no-repeat center center;
+  height: 100%;
+  color: #ffffff;
+  text-shadow: 0 2px 0 #000000;
+}
 
 .text-black {
   color: #000000;
+}
+
+.text-white {
+  color: #ffffff;
 }
 
 logos {
@@ -4153,7 +4164,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top {
   top: 0;
-  border-width: 0 0 1px;
+  border-width: 0 0 0px;
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -4215,7 +4226,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 20px;
+  font-size: 125%;
+  line-height: 25px;
+  font-family: Josefin Sans;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -4492,7 +4505,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  color: #dddddd;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4503,7 +4516,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #080808;
+  background-color: #204f77;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -4529,7 +4542,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
   color: #ffffff;
-  background-color: #112a3f;
+  background-color: #204f77;
   border-color: transparent;
 }
 @media (max-width: 767px) {
@@ -4545,13 +4558,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
-    background-color: transparent;
+    background-color: 204f77;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #080808;
+    background-color: #204f77;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
