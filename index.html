@@ -1,319 +1,406 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Borja Calvo · UPV/EHU</title>
+    <title>Borja Calvo &mdash; University of the Basque Country</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://500px.com/embed.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="css/homepage.css" rel="stylesheet" type="text/css">
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <!-- MENU------------------------------------------------------------------------------------------------>
-    <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="https://twitter.com/b0rja_calv0"><i class="fa fa-fw fa-twitter fa-lg"></i></a>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/lightgallery.min.css">    
+    
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    
+    <link rel="stylesheet" href="css/swiper.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+  </head>
+  <body>
+  
+  <div class="site-wrap">
+
+    
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
-        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-          <ul class="nav navbar-nav navbar-right nav-text">
-            <li class="active">
-              <a href="#home"><i class="fa fa-fw fa-home fa-lg"></i> Home</a>
-            </li>
-            <li>
-              <a href="#research"><i class="fa fa-fw fa-area-chart fa-lg"></i> Research</a>
-            </li>
-            <li>
-              <a href="#teaching"><i class="fa fa-fw fa-graduation-cap fa-lg"></i> Teaching</a>
-            </li>
-            <li class="hidden-sm hidden-xs ">
-              <a href="#photography"><i class="fa fa-fw fa-camera-retro fa-lg"></i> Photography</a>
-            </li>
-          </ul>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+
+    <header class="site-navbar py-3" role="banner">      
+      <div class="container">
+        <div class="row align-items-center">      
+          <div class="col-6 col-xl-2">
+          </div>
+          <div class="col-10 col-md-8 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
+              <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="#Research">Research</a></li>
+                <li class="active"><a href="#Teaching">Teaching</a></li>
+                <li class="active"><a href="#Photo">Photography</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-6 col-xl-2 text-right">
+            <div class="d-none d-xl-inline-block">
+              <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">	
+                <li>
+                  <a href="https://scholar.google.com/citations?hl=en&user=m6cU3xkAAAAJ" class="pl-3 pr-3"><span class="icon-google"></span></a>
+                </li>
+                <li>
+                  <a href="https://www.flickr.com/photos/borja_calvo" class="pl-3 pr-3"><span class="icon-flickr"></span></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/user/zar0ks666" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+
+        </div>
+      </div>
+      
+    </header>
+
+    <div class="site-blocks-cover overlay inner-page-cover" style="background-image: url('images/header_back.jpg');" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-9 text-center" data-aos="fade-up">
+            <h1>Borja Calvo</h1>
+            <h3>Department of Computer Science and Artificial Intelligence</h3>
+            <h2>University of the Basque Country (UPV/EHU)</h2>
+          </div>
         </div>
       </div>
     </div>
-    <br><br>
 
-    <!-- MENU------------------------------------------------------------------------------------------------>
-    <div class="section back-bio" id="home">
+    <div class="site-block-profile-pic" data-aos="fade" data-aos-delay="200">
+      <img src="images/bc2.jpg" alt="Image">
+    </div>
+
+    <div class="site-section" data-aos="fade">
       <div class="container">
-        <div class="hidden-sm hidden-xs"><br><br><br></div>
-        <h2 class="hidden-md hidden-lg text-primary"> Borja Calvo </h2>
-        <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
-            <div class="hidden-sm hidden-xs"><br><br><br><br><br></div>
-            <h2 class="text-white"> BORJA CALVO</h2>
-            <p class="text-justify text-white">I recieved my master's degree in Biochemistry from the Univesity of the
+        <div class="row mb-5">
+            <div class="col-12 ">
+              <h2 class="site-section-heading text-center">Short Bio</h2>
+              <p class="text-justify">I recieved my master's degree in Biochemistry from the Univesity of the
               Basque Country in 1999 and, after two years working, I took a bachelor's
               degree in Computer Science at the same university. In 2004 I earned the
               bachelor's degree and in 2008 the PhD in Computer Science.
-            </p>
-            <p class="text-justify text-white">Since 2011 I am lecturer at the Department of Computer
+              </p>
+              
+              <p class="text-justify">Since 2011 I am lecturer at the Department of Computer
               Science and Artificial Intelligence of the University of the Basque Country.
-            </p>
-            <p class="text-justify text-white">Currently, I am supervising several PhD students researching in topics covering
-            the analysis of reproducibility, study of intratumoral heterogeneity or prediction of car chashes.
-            </p>
-            <p class="text-justify text-white">I am also member of <a href="http://zientziarengiltzak.org">Zientziaren Giltzak Elkartea</a>, an association dedicated to 
-            scientific dissemination.
-            </p>
-            <div class="hidden-sm hidden-xs"><br></div>
-            <hr>
-            <div class="hidden-sm hidden-xs"><br></div>
-            <div class="row">
-              <div class="col-md-5 text-white">
-                <i class="fa fa-fw fa-phone"></i>&nbsp;+34 943 01 5013
-                <br>
-                <i class="fa fa-fw fa-fax"></i>&nbsp;+34 943 01 5090
-                <br>
-                <i class="fa fa-fw fa-envelope"></i>&nbsp;borja.calvo@ehu.eus
-              </div>
-              <hr class="hidden-md hidden-lg">
-              <div class="col-md-7 text-white">
-                <span>KZAA Saila, Informatika Fakultatea</span><br>
+              </p>
+              
+              <p class="text-justify">Currently, I am supervising several PhD students researching in topics covering
+              the analysis of reproducibility, study of intratumoral heterogeneity or statistical comparison of algorithms.
+              </p>
+              
+              <p class="text-justify">I am also member of <a href="http://zientziarengiltzak.org">Zientziaren Giltzak Elkartea</a>, an association dedicated to 
+              scientific dissemination.
+              </p>
+              <div class="hidden-sm hidden-xs"><br></div>
+              <hr>
+              <div class="hidden-sm hidden-xs"><br></div>
+              <div class="row">
+				<div class="col-md-3">
+					<i class="fa fa-fw fa-phone"></i>&nbsp;+34 943 01 5013
+					<br>
+					<i class="fa fa-fw fa-fax"></i>&nbsp;+34 943 01 5090
+					<br>
+					<i class="fa fa-fw fa-envelope"></i>&nbsp;borja.calvo@ehu.eus
+				</div>
+				<hr class="hidden-md hidden-lg">
+			  <div class="col-md-9">
+				<span>KZAA Saila, Informatika Fakultatea</span><br>
                 <span>Manuel de Lardizabal, 1</span><br>
                 <span>20018, Donostia - San Sebasti&aacute;n</span><br>
                 <span>Gipuzkoa (Spain)</span>
               </div>
             </div>
-            <div class="hidden-sm hidden-xs"><br><br></div>
           </div>
         </div>
-      </div>
-      <div class="hidden-sm hidden-xs">
-        <br><br><br><br><br><br><br>
-        <br><br><br><br><br><br>
+        
+        <div class="col-12">
+			<p class="text-center"><a href="#"> &mdash; Top &mdash;</a></p>
+		</div>
+		
       </div>
     </div>
 
-    <!-- RESEARCH------------------------------------------------------------------------------------------->
-    <div class="section back-research" id="research">
-      <div class="hidden-sm hidden-xs"><br><br><br></div>
-      <div class="hidden-sm hidden-xs"><br><br><br></div>
+
+    <div class="site-section" data-aos="fade" id="Research">
       <div class="container">
-        <div class="row">
+        <div class="row mb-5">
+            <div class="col-12 ">
+		      <h2 class="site-section-heading text-center"> Research </h2>
+		   </div>
+	   </div>
+       <div class="row mb-5">
           <div class="col-md-6">
-            <h2 class="text-primary">Research Interests</h2>
-            <p class="text-justify  text-md">
+            <p class="text-justify text-md">
               My research interests cover the following topics:
               <ul class="text-md">
-                <li>Non-standard classification problems</li>
-                <li>Statistical analysis of classifiers</li>
+                <li>Statistical analysis of algoritms</li>
                 <li>Analysis of reproducibility</li>
                 <li>Analysis of biological data</li>
+                <li>Non-standard classification problems</li>
                 <li>Rare event prediction</li>
-                <li>Data visualization</li>
+                <li>Heuristic optimization</li>
               </ul>
             </p>
           </div>
 
           <div class="col-md-6">
-            <h2 class="text-primary">Publications</h2>
+            <h2>Publications</h2>
             <p class="text-justify text-md">
-              You can see the complete list of publications either in my <a href="https://scholar.google.com/citations?user=m6cU3xkAAAAJ&hl=en">Google Scholar</a> profile, <a href="http://orcid.org/0000-0001-9969-9664">ORCiD</a> or in our group's <a href="http://www.citeulike.org/user/isg_ehu/author/Calvo:B">CiteULike</a> list
+              You can see the complete list of publications in my <a href="https://scholar.google.com/citations?user=m6cU3xkAAAAJ&hl=en">Google Scholar</a> profile.
             </p>
-            <h2 class="text-primary">Software</h2>
+            <h2>Software</h2>
             <p class="text-justify text-md">
               All my contributions to scientific software are available through my <a href="https://github.com/b0rxa">Github</a> page
             </p>
           </div>
-        </div>
-        <div class="hidden-sm hidden-xs">
-          <br><br><br><br><br><br><br><br><br>
-          <br><br><br><br><br><br><br><br><br>
-          <br><br><br><br><br><br><br><br><br>
-        </div>
-      </div>
-    </div>
-
-    <!-- TEACHING------------------------------------------------------------------------------------------->
-    <div class="section back-teaching" id="teaching">
-      <div class="hidden-sm hidden-xs"><br><br><br></div>
-      <div class="hidden-sm hidden-xs"><br><br><br></div>
+       </div>
+        
+        <div class="col-12">
+			<p class="text-center"><a href="#"> &mdash; Top &mdash;</a></p>
+		</div>
+		
+     </div>
+   </div>
+   
+    <div class="site-section" data-aos="fade" id="Teaching">
       <div class="container">
-        <div class="row">
+        <div class="row mb-5">
+            <div class="col-12 ">
+		      <h2 class="site-section-heading text-center"> Teaching </h2>
+		   </div>
+	   </div>
+       <div class="row mb-5">
           <div class="col-md-6">
-            <h2 class="text-primary">Courses</h2>
-            <p class="text-justify  text-md text-white">
-              Currently I am involved in the following courese, all taught at the Computer Science Faculty in Donostia - San Sebasti&aacute;n:
-              <ul class="text-md text-white">
+            <h2>Courses</h2>
+            <p class="text-justify  text-md">
+              Currently I am involved in the following courses, all taught at the Computer Science Faculty in Donostia - San Sebasti&aacute;n:
+              <ul class="text-md">
                 <li>Computer Graphics (in basque)</li>
-                <li>Search Heuristics (in basque)</li>
+                <li>Virtual and Augmented Reality (in spanish)</li>
                 <li>Bayesian Networks (in spanish and english)</li>
-                <li>Bioinformatics (in basque)</li>
               </ul>
             </p>
             <br class="hidden-xs hidden-sm">
           </p>
-          <h2 class="text-primary">Management</h2>
-          <p class="text-justify text-md text-white">
-            I am part of the academic comitee of both our Department and the
-            <a href="http://www.ehu.eus/eu/web/kisa/aurkezpena"> Master in Computational Intelligence and Intelligent Systems. Github</a> page.  I am also the coordinator
-            of the Computation specialization in the <a href="http://www.ehu.eus/eu/web/informatika-fakultatea/informatika-ingenieritzako-gradua-iig-">Computing Engineering Degree</a>
-          </p>
         </div>
         <div class="col-md-6">
-          <h2 class="text-primary">Master's Theses</h2>
-          <p class="text-justify text-md text-white">
-            I have supervised four master's thesis:
-            <ul class="text-md text-white">
+          <h2>Master's Theses</h2>
+          <p class="text-justify text-md">
+            I have supervised seven master's thesis:
+            <ul class="text-md">
               <li>Desarrollo de un sistema de simulaci&oacute;n de datos de metilaci&oacute;n</li>
               <li>Comparación de haplotipos mitocondriales en presencia de incertidumbre: Aplicaci&oacute;n a la b&uacute;squeda de linajes maternos vascos</li>
               <li>Predicci&oacute;n de anomal&iacute;s para estampaci&oacute;n en fr&iacute;o mediante t&eacute;cnicas de data mining</li>
               <li>Metodolog&iacute;a para la detecci&oacute;n de defectos en pat&oacute;grafos mediante t&eacute;cnicas de aprendizaje autom&aacute;tico</li>
+              <li>Desarrollo de un sistema de monitorizaci&oacute;n inteligente para l&iacute;neas de estampaci&oacute;n t&aacute;ndem</li>
+              <li>Detecci&oacute;n de anomal&iacute;as para la identificaci&eocute;n de quemas de rectificado por medio de t&eacute;cnicas magn&eacute;ticas</li>
+              <li>An authoring tool for flexible and domain independent clinical decision support systems</li>
             </ul>
           </p>
         </div>
-      </div>
-      <div class="hidden-sm hidden-xs">
-        <br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br></div>
-      </div>
-    </div>
+       </div>
+        
+        <div class="col-12">
+			<p class="text-center"><a href="#"> &mdash; Top &mdash;</a></p>
+		</div>
+		
+     </div>
+   </div>
+   
+   
+   
+   
+   
+    <div class="site-section"  data-aos="fade" id="Photo">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 ">
+		      <h2 class="site-section-heading text-center"> Photography </h2>
+		      </br>
+		      <p> In my free time, I like spend time taking pictures and making films. Here you have some examples ...</p>
+		   </div>
+	   </div>
+		
+      
+      <div class="row no-gutters" id="lightgallery">
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic1.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb1.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic2.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb2.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic3.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem reiciendis, dolorum illo temporibus culpa eaque dolore rerum quod voluptate doloribus.</p>">
+          <a href="#"><img src="images/pictures/thumb3.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic4.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim perferendis quae iusto omnis praesentium labore tempore eligendi quo corporis sapiente.</p>">
+          <a href="#"><img src="images/pictures/thumb4.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic5.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, voluptatum voluptate tempore aliquam, dolorem distinctio. In quas maiores tenetur sequi.</p>">
+          <a href="#"><img src="images/pictures/thumb5.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic6.jpg" data-sub-html="<h4>Fading Light</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum cum culpa blanditiis illum, voluptatum iusto quisquam mollitia debitis quaerat maiores?</p>">
+          <a href="#"><img src="images/pictures/thumb6.jpg" alt="" class="img-fluid"></a>
+        </div>
 
-    <!-- PHOTOGRAPHY------------------------------------------------------------------------------------>
-    <div class="section back-photo hidden-sm hidden-xs " id="photography">
-      <br><br><br>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic7.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb7.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic8.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb8.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic9.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb9.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic10.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb10.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic11.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb11.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic12.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb12.jpg" alt="" class="img-fluid"></a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic13.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb13.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic14.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb14.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic15.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb15.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic16.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb16.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic17.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb17.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic18.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb18.jpg" alt="" class="img-fluid"></a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic19.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb19.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic20.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb20.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic21.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb21.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic22.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb22.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic23.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb23.jpg" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 item" data-aos="fade" data-src="images/pictures/pic24.jpg" data-sub-html="">
+          <a href="#"><img src="images/pictures/thumb24.jpg" alt="" class="img-fluid"></a>
+        </div>
+      </div>
+		</br></br>
+		<div class="row mb-5">
+            <div class="col-3">
+				<img src="images/acreditacion.jpg" alt="" class="img-fluid">
+		    </div>
+            <div class="col-9">
+				<p>
+				ACREDITACI&Oacute;N is a short film we produced in our research group. It is a FICTION (;P) story about the pressure to publish in the academic career and 
+				how this pressure forces researchers to do <em>anything</em> to get publications and progress in their career.
+				</p>
+				<p>
+				The film is in spanish, but english subtitles will soon be available. You can watch the <a href="https://www.youtube.com/watch?v=BYK3rGwZIXg">film</a> (as well as the teaser and the making of) in youtube.
+				</p>
+		    </div>
+		</div>
+		
+        
+        <div class="col-12">
+			<p class="text-center"><a href="#"> &mdash; Top &mdash;</a></p>
+		</div>
+		
+    </div>
+  </div>
+
+
+  
+
+  <footer class="site-footer">
       <div class="container">
-        <span class="text-md text-white">
-          In my free time (if there is such a thing ...) I enjoy taking pictures. Here are some examples;
-          more in <a href="https://500px.com/borjacalvo">500px</a> and <a href="https://www.flickr.com/photos/borja_calvo/">Flicker</a>
-        </span>
-        <div class="row">
-          <br><br>
-          <div class="col-md-3">
-			<div class='pixels-photo'>
-				<p>
-					<img src='https://drscdn.500px.org/photo/241344691/m%3D900/v2?user_id=9605213&webp=true&sig=450e9611aac27e4383612d85185209f5b3a5b5bd674d992d710576bee592e044' alt='Paint explosion I by Borja Calvo on 500px.com'>
-				</p>
-				<a href='https://500px.com/photo/241344691/paint-explosion-i-by-borja-calvo' alt='Paint explosion I by Borja Calvo on 500px.com'></a>
-			</div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
           </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-3">
-			<div class='pixels-photo'>
-				<p>
-					<img src='https://drscdn.500px.org/photo/205917893/m%3D900/v2?user_id=9605213&webp=true&sig=c8c5102eacd3811bb0e3932faeecf7e8595fe72be8d1d2b6462915cd9d151f81' alt='Arduino &amp; High Speed Photography I by Borja Calvo on 500px.com'>
-				</p>
-				<a href='https://500px.com/photo/205917893/arduino-high-speed-photography-i-by-borja-calvo' alt='Arduino &amp; High Speed Photography I by Borja Calvo on 500px.com'></a>
-			</div>          
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-3">
-			  <div class='pixels-photo'>
-				<p>
-					<img src='https://drscdn.500px.org/photo/224072853/m%3D900/v2?user_id=9605213&webp=true&sig=f6e112bc6efc7f6122cdd07d486db0bc9ac357ea12f67537543d6d330ac417e1' alt='Fireworks @ Donostia II by Borja Calvo on 500px.com'>
-				</p>
-				<a href='https://500px.com/photo/224072853/fireworks-donostia-ii-by-borja-calvo' alt='Fireworks @ Donostia II by Borja Calvo on 500px.com'></a>
-			  </div>			  
-          </div>
+          
         </div>
-        
-        
-        <div class="row">
-          <br><br>
-          <div class="col-md-3">
-            <div class='pixels-photo'>
-              <p>
-                <img src='https://drscdn.500px.org/photo/127378949/m%3D900/8c87b2fa98586b1d2d2cdfe9fc760664' alt='Rocks de Borja Calvo en 500px.com'>
-              </p>
-              <a href='https://500px.com/photo/127378949/rocks-by-borja-calvo' alt='Rocks de Borja Calvo en 500px.com'></a>
-            </div>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-3">
-            <div class='pixels-photo'>
-              <p>
-                <img src='https://drscdn.500px.org/photo/128157507/m%3D900/3a7c9fc93aaacfa341f67bf540914354' alt='Eki de Borja Calvo en 500px.com'>
-              </p>
-              <a href='https://500px.com/photo/128157507/eki-by-borja-calvo' alt='Eki de Borja Calvo en 500px.com'></a>
-            </div>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-3">
-            <div class='pixels-photo'>
-              <p>
-                <img src='https://drscdn.500px.org/photo/142809903/m%3D900/b95231ed3ddcc34ee0afb21a5d2b5a5a' alt='Silent scream de Borja Calvo en 500px.com'>
-              </p>
-              <a href='https://500px.com/photo/142809903/silent-scream-by-borja-calvo' alt='Silent scream de Borja Calvo en 500px.com'></a>
-            </div>
-          </div>
-        </div>
-
-        <br>
-        <div class="row">
-          <br>
-          <div class="col-md-3">
-            <div class='pixels-photo'>
-              <p>
-                <img src='https://drscdn.500px.org/photo/150875447/m%3D900/3fe5e85196ad0014de46e1a4e4a77b44' alt='V Lea Artibai Rallye de Borja Calvo en 500px.com'>
-              </p>
-              <a href='https://500px.com/photo/150875447/v-lea-artibai-rallye-by-borja-calvo' alt='V Lea Artibai Rallye de Borja Calvo en 500px.com'></a>
-            </div>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-3">
-            <div class='pixels-photo'>
-              <p>
-                <img src='https://drscdn.500px.org/photo/152067441/m%3D900/af9118520285465db90f02d5e2cae29b' alt='Bakio Gaztelugatxetik de Borja Calvo en 500px.com'>
-              </p>
-              <a href='https://500px.com/photo/152067441/bakio-gaztelugatxetik-by-borja-calvo' alt='Bakio Gaztelugatxetik de Borja Calvo en 500px.com'></a>
-            </div></div>
-            <div class="col-md-1"></div>
-            <div class="col-md-3"><div class='pixels-photo'>
-              <p>
-                <img src='https://drscdn.500px.org/photo/88667461/m%3D900/8c90fa0756da8d955dd9a3ff599b6c41' alt='Rainy day de Borja Calvo en 500px.com'>
-              </p>
-              <a href='https://500px.com/photo/88667461/rainy-day-by-borja-calvo' alt='Rainy day de Borja Calvo en 500px.com'></a>
-            </div>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-md-3">
-            <a data-flickr-embed="true"  href="https://www.flickr.com/photos/borja_calvo/26515501910/in/dateposted-public/" title="2016_05_Gaztelugatxe_IMG_8465"><img src="https://c7.staticflickr.com/8/7028/26515501910_9aa8b21c46_n.jpg" width="320" height="213" alt="2016_05_Gaztelugatxe_IMG_8465"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-3">
-            <div class='pixels-photo'>
-              <p>
-                <img src='https://drscdn.500px.org/photo/86741343/m%3D900/bc67f8dd3b95eae61ac60833f1e509ca' alt='Cable car de Borja Calvo en 500px.com'>
-              </p>
-              <a href='https://500px.com/photo/86741343/cable-car-by-borja-calvo' alt='Cable car de Borja Calvo en 500px.com'></a>
-            </div>
-            <script type='text/javascript' src='https://500px.com/embed.js'></script>
-          </div>
-          <div class="col-md-1"></div>
-
-          <div class="col-md-3">
-            <div class='pixels-photo'>
-              <p>
-                <img src='https://drscdn.500px.org/photo/127931731/m%3D900/0a3ad412543d148ef1e70bc5c1092453' alt='Ondarru de Borja Calvo en 500px.com'>
-              </p>
-              <a href='https://500px.com/photo/127931731/ondarru-by-borja-calvo' alt='Ondarru de Borja Calvo en 500px.com'></a>
-            </div>
-            <script type='text/javascript' src='https://500px.com/embed.js'></script>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <footer class="navbar-default navbar-fixed-bottom">
-      <div class="container-fluid text-right">
-        <span>Borja Calvo <i class="fa fa-fw fa-creative-commons"></i>&nbsp;2016</span>
       </div>
     </footer>
+
+
+    
+    
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/picturefill.min.js"></script>
+  <script src="js/lightgallery-all.min.js"></script>
+  <script src="js/jquery.mousewheel.min.js"></script>
+
+  <script src="js/main.js"></script>
+  
+  <script>
+    $(document).ready(function(){
+      $('#lightgallery').lightGallery();
+    });
+  </script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -325,22 +412,5 @@
     </script>
 
 
-        <!-- SMOOTH SCROLLING ----------------------------------------------------------------------------->
-        <script>
-        $(document).ready(function(){
-        	$('a[href^="#"]').on('click',function (e) {
-        	    e.preventDefault();
-
-        	    var target = this.hash;
-        	    var $target = $(target);
-
-        	    $('html, body').stop().animate({
-        	        'scrollTop': $target.offset().top
-        	    }, 900, 'swing', function () {
-        	        window.location.hash = target;
-        	    });
-        	});
-        });
-        </script>
   </body>
 </html>
