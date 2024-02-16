@@ -521,15 +521,31 @@ a {
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover .row {
     min-height: 600px;
     height: calc(30vh); }
-  .site-blocks-cover h2, .site-blocks-cover h3, .site-blocks-cover h4, .site-blocks-cover h5 {
-    color: #fff; }
   .site-blocks-cover h1 {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 900;
+    color: #fff; }
+  .site-blocks-cover h2 {
+    font-size: 2rem;
+    color: #fff; }
+  .site-blocks-cover h3 {
+    font-size: 1.5rem;
+    color: #fff; }
+  .site-blocks-cover h4 {
+    font-size: 1rem;
+    color: #fff; }
+  .site-blocks-cover h5 {
+    font-size: 1rem;
     color: #fff; }
     @media (min-width: 768px) {
       .site-blocks-cover h1 {
-        font-size: 3rem; } }
+        font-size: 3.5rem; } 
+      .site-blocks-cover h2 {
+        font-size: 2.5rem; } 
+      .site-blocks-cover h3 {
+        font-size: 2rem; } 
+      .site-blocks-cover h4 {
+        font-size: 1.5rem; } }
   .site-blocks-cover p {
     color: #fff;
     font-size: 1.2rem;
